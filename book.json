@@ -1,0 +1,47 @@
+{
+  "title": "深入理解React Hooks",
+  "author": "Elton",
+  "description": "深入理解Hooks的思想和新的UI设计模式",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "./styles/website.css"
+  },
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "chapter-fold",
+    "splitter",
+    "back-to-top-button",
+    "github",
+    "lightbox",
+    "prism",
+    "-highlight",
+    "tbfed-pagefooter",
+    "donate",
+    "katex"
+  ],
+  "pluginsConfig": {
+    "github": {
+      "url": "https://github.com/elton"
+    },
+    "prism": {
+      "css": ["prismjs/themes/prism-tomorrow.css"]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "&copy 2020 Elton",
+      "modify_label": "该文件最后修改时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "donate": {
+      "alipay": "/source/images/donate.png",
+      "title": "",
+      "button": "赞赏",
+      "alipayText": " "
+    }
+  }
+}

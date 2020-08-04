@@ -5,7 +5,11 @@
   "language": "zh-hans",
   "gitbook": "3.2.3",
   "styles": {
-    "website": "./styles/website.css"
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
   },
   "structure": {
     "readme": "README.md"
@@ -19,19 +23,18 @@
     "back-to-top-button",
     "github",
     "lightbox",
-    "prism",
-    "-highlight",
     "tbfed-pagefooter",
     "donate",
-    "katex"
+    "katex",
+    "advanced-emoji",
+    "emphasize",
+    "graph"
   ],
   "pluginsConfig": {
     "github": {
       "url": "https://github.com/elton"
     },
-    "prism": {
-      "css": ["prismjs/themes/prism-tomorrow.css"]
-    },
+
     "tbfed-pagefooter": {
       "copyright": "&copy 2020 Elton",
       "modify_label": "该文件最后修改时间：",
